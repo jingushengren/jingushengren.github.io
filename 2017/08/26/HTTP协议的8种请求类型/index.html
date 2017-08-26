@@ -3,18 +3,18 @@
 <head>
   <meta charset="utf-8">
   
-  <title>hexo笔记 | 刘灿的博客</title>
+  <title>HTTP协议的8种请求类型 | 刘灿的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="本文为个人笔记，主要记录hexo使用笔记。 ##1.命令：新建文章命令：hexo new “my new post”生成静态博客命令：hexo g or hexo generate上传到github： hexo d or hexo deploy运行本地服务： hexo s  or hexo server">
+  <meta name="description" content="HTTP协议中共定义了八种方法或者叫“动作”来表明对Request-URI指定的资源的不同操作方式，具体介绍如下：  OPTIONS：返回服务器针对特定资源所支持的HTTP请求方法。也可以利用向Web服务器发送’*’的请求来测试服务器的功能性。HEAD：向服务器索要与GET请求相一致的响应，只不过响应体将不会被返回。这一方法可以在不必传输整个响应内容的情况下，就可以获取包含在响应消息头中的元信息。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="hexo笔记">
-<meta property="og:url" content="https:jingushengren.github.io/2017/07/16/hexo笔记/index.html">
+<meta property="og:title" content="HTTP协议的8种请求类型">
+<meta property="og:url" content="https:jingushengren.github.io/2017/08/26/HTTP协议的8种请求类型/index.html">
 <meta property="og:site_name" content="刘灿的博客">
-<meta property="og:description" content="本文为个人笔记，主要记录hexo使用笔记。 ##1.命令：新建文章命令：hexo new “my new post”生成静态博客命令：hexo g or hexo generate上传到github： hexo d or hexo deploy运行本地服务： hexo s  or hexo server">
-<meta property="og:updated_time" content="2017-07-16T13:21:11.142Z">
+<meta property="og:description" content="HTTP协议中共定义了八种方法或者叫“动作”来表明对Request-URI指定的资源的不同操作方式，具体介绍如下：  OPTIONS：返回服务器针对特定资源所支持的HTTP请求方法。也可以利用向Web服务器发送’*’的请求来测试服务器的功能性。HEAD：向服务器索要与GET请求相一致的响应，只不过响应体将不会被返回。这一方法可以在不必传输整个响应内容的情况下，就可以获取包含在响应消息头中的元信息。">
+<meta property="og:updated_time" content="2017-08-26T07:06:27.892Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="hexo笔记">
-<meta name="twitter:description" content="本文为个人笔记，主要记录hexo使用笔记。 ##1.命令：新建文章命令：hexo new “my new post”生成静态博客命令：hexo g or hexo generate上传到github： hexo d or hexo deploy运行本地服务： hexo s  or hexo server">
+<meta name="twitter:title" content="HTTP协议的8种请求类型">
+<meta name="twitter:description" content="HTTP协议中共定义了八种方法或者叫“动作”来表明对Request-URI指定的资源的不同操作方式，具体介绍如下：  OPTIONS：返回服务器针对特定资源所支持的HTTP请求方法。也可以利用向Web服务器发送’*’的请求来测试服务器的功能性。HEAD：向服务器索要与GET请求相一致的响应，只不过响应体将不会被返回。这一方法可以在不必传输整个响应内容的情况下，就可以获取包含在响应消息头中的元信息。">
   
     <link rel="alternate" href="/atom.xml" title="刘灿的博客" type="application/atom+xml">
   
@@ -67,10 +67,10 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="post-hexo笔记" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-HTTP协议的8种请求类型" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2017/07/16/hexo笔记/" class="article-date">
-  <time datetime="2017-07-16T12:46:04.000Z" itemprop="datePublished">2017-07-16</time>
+    <a href="/2017/08/26/HTTP协议的8种请求类型/" class="article-date">
+  <time datetime="2017-08-26T07:05:55.000Z" itemprop="datePublished">2017-08-26</time>
 </a>
     
   </div>
@@ -81,7 +81,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      hexo笔记
+      HTTP协议的8种请求类型
     </h1>
   
 
@@ -89,13 +89,15 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>本文为个人笔记，主要记录hexo使用笔记。</p>
-<p>##1.命令：<br>新建文章命令：<strong><em>hexo new “my new post”</em></strong><br>生成静态博客命令：<strong><em>hexo g</em></strong> or <strong><em>hexo generate</em></strong><br>上传到github： <strong><em>hexo d</em></strong> or <strong><em>hexo deploy</em></strong><br>运行本地服务： <strong><em>hexo s</em></strong>  or <strong><em>hexo server</em></strong></p>
+        <p>HTTP协议中共定义了八种方法或者叫“动作”来表明对Request-URI指定的资源的不同操作方式，具体介绍如下： </p>
+<p>OPTIONS：返回服务器针对特定资源所支持的HTTP请求方法。也可以利用向Web服务器发送’*’的请求来测试服务器的功能性。<br>HEAD：向服务器索要与GET请求相一致的响应，只不过响应体将不会被返回。这一方法可以在不必传输整个响应内容的情况下，就可以获取包含在响应消息头中的元信息。<br>GET：向特定的资源发出请求。<br>POST：向指定资源提交数据进行处理请求（例如提交表单或者上传文件）。数据被包含在请求体中。POST请求可能会导致新的资源的创建和/或已有资源的修改。<br>PUT：向指定资源位置上传其最新内容。<br>DELETE：请求服务器删除Request-URI所标识的资源。<br>TRACE：回显服务器收到的请求，主要用于测试或诊断。 </p>
+<p>CONNECT：HTTP/1.1协议中预留给能够将连接改为管道方式的代理服务器。</p>
+<p>   虽然HTTP的请求方式有8种，但是我们在实际应用中常用的也就是get和post，其他请求方式也都可以通过这两种方式间接的来实现。</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https:jingushengren.github.io/2017/07/16/hexo笔记/" data-id="cj6syqbzy0003mz6t62h6mgb0" class="article-share-link">Share</a>
+      <a data-url="https:jingushengren.github.io/2017/08/26/HTTP协议的8种请求类型/" data-id="cj6syqbz70000mz6tbrqnhc6t" class="article-share-link">Share</a>
       
       
     </footer>
@@ -104,19 +106,10 @@
     
 <nav id="article-nav">
   
-    <a href="/2017/08/26/学习资料/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
-        
-          学习资料
-        
-      </div>
-    </a>
   
-  
-    <a href="/2017/07/15/Hello-World/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/2017/08/26/学习资料/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">Hello World</div>
+      <div class="article-nav-title">学习资料</div>
     </a>
   
 </nav>
